@@ -9,4 +9,4 @@
 
 ![Зависимость кол-ва запросов от возраста](/src/img/ages_requests_graph.png)
 ![Зависимость кол-ва запросов от возраста](/src/img/correct_ages_requests.png)
-
+![Зависимость кол-ва запросов от региона](/src/img/distribution_users_by_region.jpeg)
