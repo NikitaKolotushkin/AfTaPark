@@ -2,12 +2,22 @@
 
 ## Проект для хакатона от VK&HSE
 
-### Первичный анализ:
-+ Проанализировали закономерности в таблицах geo и users
-+ Провели статистический анализ данных
-+ Исключили "битые" данные, не подходящие для дальнейшей обработки (или мешающие ей)
-+ Выдвинули ряд теорий о закономерности распределения искомых данных
+### Installing:
+```bash
+git clone http://github.com/NikitaKolotushkin/AfTaPark.git
 
+cd AfTaPark
+
+python3 -m pip install virtualenv
+
+virtualenv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+### Examples:
 ![Зависимость кол-ва запросов от возраста](/src/img/ages_requests_graph.png)
 ![Зависимость кол-ва запросов от возраста](/src/img/correct_ages_requests.png)
 ![Зависимость кол-ва пользователей от региона](/src/img/distribution_users_by_region.jpeg)
@@ -36,6 +46,3 @@ plt.show()
 ```
 
 Пример кода отрисовки гистограммы на основе полученных статистических данных
-
-### Сведение таблиц данных
-+ 
